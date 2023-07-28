@@ -1,0 +1,144 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    /* z-index: 10; */
+    
+}
+
+footer {
+    margin-top: 100px;
+    padding: 100px;
+    text-align: center;
+    background-color: #DDDDDD;
+}
+
+
+
+nav {
+    text-align: right;
+    background-color: #DDDDDD;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    
+}
+
+nav a:hover {
+    transition-duration: 0.2s;
+    color: grey;
+}
+
+img {
+    margin: auto;
+    height: 500px;
+    /* max-width: auto; */
+  }
+
+img:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+
+/* img:hover:after {
+    background-color: black;
+    opacity: 0.5;
+} */
+
+p {
+    text-align: center;
+}
+
+form {
+    display: block;
+    text-align: left;
+    margin: auto;
+    max-width: 400px;
+}
+
+
+
+.header {
+    margin-top: 70px;
+}
+
+.underline {
+    border-bottom: 3px solid #8294C4;
+    /* padding-top: 10px; */
+}
+
+.gallery {
+    max-width: 1000px;
+    /* max-height: 200px; */ 
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.cards {
+    /* background-color: #ffc200; */
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col {
+    /* display: inline-flex; */
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+#booking {
+    color: #d43232;
+}
+
+#fuji {
+    height: 550px;
+}
+
+#selfie {
+    height: 15em;
+    border-radius: 20em;
+    display: flex;
+    align-items: center;
+}
+
+#selfie:hover {
+    transform: none;
+}
+
+#name, #email, #subject {
+    width: 100%;
+    padding: 12px;
+}
+
+#submit {
+    background-color: #DDDDDD;
+    color: #8294C4;
+    border: 1px solid #8294C4;
+    padding: 10px 15px;
+}
+
+#submit:hover {
+    border: 1px solid white;
+}
